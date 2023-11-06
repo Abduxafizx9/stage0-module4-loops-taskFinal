@@ -5,7 +5,7 @@ public class MultiplicationTable {
         int result;
         if(numberTableToPrint>=0 && numberTableToPrint<11)
         for (int i = 1; i <=10 ; i++) {
-            result=i*10;
+            result=i*numberTableToPrint;
             System.out.println(i+" * 10 = " + result);
 
         }
